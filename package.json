@@ -13,6 +13,7 @@
   "dependencies": {
     "bulma": "^0.6.1",
     "chart.js": "^2.7.1",
+    "csvtojson": "^1.1.9",
     "vue": "^2.5.2",
     "vue-chartjs": "^3.0.2",
     "vue-router": "^3.0.1"

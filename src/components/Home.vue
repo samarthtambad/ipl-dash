@@ -39,61 +39,210 @@
           <div class="tile is-ancestor">
             <div class="tile is-parent">
               <article class="tile is-child box">
-                <p class="subtitle is-size-6 has-text-weight-bold">Points Table</p>
-                <table-element :data="pointsData" :columns="pointsColumns"></table-element>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child box">
-                <p class="subtitle is-size-6 has-text-weight-bold">Number of wins of each team</p>
-                <donut-chart :chartData="donutData" :options="chartOptions"></donut-chart>
+                
+                <div class="tile is-parent">
+                  <span>Filter By:  </span>
+                  <select id="filter">
+                    <option>All Seasons</option>
+                    <option>Season 1</option>
+                    <option>Season 2</option>
+                    <option>Season 3</option>
+                    <option>Season 4</option>
+                    <option>Season 5</option>
+                    <option>Season 6</option>
+                    <option>Season 7</option>
+                    <option>Season 8</option>
+                    <option>Season 9</option>
+                    <option>Season 10</option>
+                  </select>
+                </div>
+
+                <div class="tile">
+                  <div class="tile is-parent is-6">
+                    <article class="tile is-child ">
+                      <p class="subtitle is-size-6 has-text-weight-bold">Points Table</p>
+                      <table-element :data="pointsData" :columns="pointsColumns"></table-element>
+                    </article>
+                  </div>
+                  <div class="tile is-parent">
+                    <article class="tile is-child ">
+                      <p class="subtitle is-size-6 has-text-weight-bold">Number of wins of each team</p>
+                      <donut-chart :chartData="donutData" :options="chartOptionsDonut"></donut-chart>
+                    </article>
+                  </div>
+                </div>
               </article>
             </div>
           </div>
-          
+
           <div class="tile is-ancestor">
-            <div class="tile is-7 is-vertical">
-              <div class="tile">
-                <!-- <div class="tile is-4 is-vertical">
-                  <div class="tile is-parent">
-                    <article class="tile is-child box">
-                      
-                    </article>
-                  </div>
-                  <div class="tile is-parent">
-                    <article class="tile is-child box">
-                      
-                    </article>
-                  </div>
-                </div> -->
+            <div class="tile">
+              <div class="tile is-vertical">
                 <div class="tile is-parent">
                   <article class="tile is-child box">
-                    <p class="subtitle has-text-centered">Top Bowlers</p>
-                    <donut-chart :chartData="donutData" :options="chartOptions"></donut-chart>
-                    <!-- <line-chart :chartData="lineData" :options="chartOptions"></line-chart> -->
+                    <p class="title has-text-centered is-size-1">60%</p>
+                    <p class="subtitle has-text-centered is-size-7">of the toss winners chose to field first</p>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">4</p>
+                    <p class="subtitle has-text-centered is-size-7">average number of balls between each boundary</p>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">70%</p>
+                    <p class="subtitle has-text-centered is-size-7">of the times the team chasing won the match</p>
                   </article>
                 </div>
               </div>
-              <div class="tile is-parent">
-                <article class="tile is-child box">
+            </div>
+            <div class="tile is-parent is-10">
+              <article class="tile is-child box">
+                  <div class="tile is-parent">
+                    <div class="tile is-10">
+                      <p class="subtitle is-size-6 has-text-weight-bold">Season-wise Performance</p>
+                    </div>
+                    <div class="tile has-text-right">
+                      <span>Filter By:  </span>
+                      <select id="filter">
+                        <option>RCB</option>
+                        <option>KKR</option>
+                        <option>MI</option>
+                        <option>CSK</option>
+                        <option>RR</option>
+                        <option>DD</option>
+                        <option>KXIP</option>
+                        <option>DC</option>
+                        <option>PW</option>
+                        <option>KTK</option>
+                        <option>SH</option>
+                        <option>RPS</option>
+                        <option>GL</option>
+                      </select>
+                    </div>
+                  </div>
                   <line-chart :chartData="lineData" :options="chartOptions"></line-chart>
-                  <!-- <donut-chart :chartData="donutData" :options="chartOptions"></donut-chart> -->
                 </article>
+            </div>            
+          </div>
+
+          <div class="tile is-ancestor">
+            <div class="tile is-6 is-vertical">
+              <div class="tile">
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">60%</p>
+                    <p class="subtitle has-text-centered is-size-7">of the toss winners chose to field first</p>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">4</p>
+                    <p class="subtitle has-text-centered is-size-7">average number of balls between each boundary</p>
+                  </article>
+                </div>
+              </div>
+              <div class="tile">
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">60%</p>
+                    <p class="subtitle has-text-centered is-size-7">of the toss winners chose to field first</p>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">4</p>
+                    <p class="subtitle has-text-centered is-size-7">average number of balls between each boundary</p>
+                  </article>
+                </div>
               </div>
             </div>
-            <div class="tile">
-              <!-- <article class="tile is-child box"> -->
-                  <div class="tile is-parent is-vertical">
-                    <article class="tile is-child box">
-                        <p class="subtitle has-text-centered">Top Batsmen</p>
-                        <table-element :data="batsmenData" :columns="batsmenColumns"></table-element>
-                    </article>
-                    <article class="tile is-child box">
-                        <p class="subtitle has-text-centered">Top Bowlers</p>
-                        <table-element :data="batsmenData" :columns="batsmenColumns"></table-element>
-                    </article>
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <div class="tile is-parent">
+                    <div class="tile is-8">
+                      <p class="subtitle is-size-6 has-text-weight-bold">Top Batsmen</p>
+                    </div>
+                    <div class="tile has-text-right">
+                      <span>Filter By:  </span>
+                      <select id="filter">
+                        <option>All Seasons</option>
+                        <option>Season 1</option>
+                        <option>Season 2</option>
+                        <option>Season 3</option>
+                        <option>Season 4</option>
+                        <option>Season 5</option>
+                        <option>Season 6</option>
+                        <option>Season 7</option>
+                        <option>Season 8</option>
+                        <option>Season 9</option>
+                        <option>Season 10</option>
+                      </select>
+                    </div>
                   </div>
-              <!-- </article> -->
+                <table-element :data="batsmenData" :columns="batsmenColumns"></table-element>
+              </article>
+            </div>
+          </div>
+
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <article class="tile is-child box">
+                <div class="tile is-parent">
+                    <div class="tile is-8">
+                      <p class="subtitle is-size-6 has-text-weight-bold">Top Bowlers</p>
+                    </div>
+                    <div class="tile has-text-right">
+                      <span>Filter By:  </span>
+                      <select id="filter">
+                        <option>All Seasons</option>
+                        <option>Season 1</option>
+                        <option>Season 2</option>
+                        <option>Season 3</option>
+                        <option>Season 4</option>
+                        <option>Season 5</option>
+                        <option>Season 6</option>
+                        <option>Season 7</option>
+                        <option>Season 8</option>
+                        <option>Season 9</option>
+                        <option>Season 10</option>
+                      </select>
+                    </div>
+                  </div>
+                <table-element :data="batsmenData" :columns="batsmenColumns"></table-element>
+              </article>
+            </div>
+            <div class="tile is-6 is-vertical">
+              <div class="tile">
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">60%</p>
+                    <p class="subtitle has-text-centered is-size-7">of the toss winners chose to field first</p>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">4</p>
+                    <p class="subtitle has-text-centered is-size-7">average number of balls between each boundary</p>
+                  </article>
+                </div>
+              </div>
+              <div class="tile">
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">60%</p>
+                    <p class="subtitle has-text-centered is-size-7">of the toss winners chose to field first</p>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child box">
+                    <p class="title has-text-centered is-size-1">4</p>
+                    <p class="subtitle has-text-centered is-size-7">average number of balls between each boundary</p>
+                  </article>
+                </div>
+              </div>
             </div>
           </div>
           
@@ -153,9 +302,8 @@ export default {
       chartOptions: {
         responsive: true,
         maintainAspectRatio: false,
-        responsive: true,
         legend: {
-          display: true,
+          display: false,
           position: 'right',
           labels: {
             boxWidth: 12,
@@ -165,6 +313,35 @@ export default {
         },
         tooltips: {
           intersect: false
+        },
+        scales: {
+          xAxes: [{
+            id: 'x-axis',
+            scaleLabel: {
+              display: true,
+              labelString: 'Season'
+            }
+          }],
+          yAxes: [{
+            id: 'y-axis',
+            scaleLabel: {
+              display: true,
+              labelString: 'Wins'
+            }
+          }]
+        }
+      },
+      chartOptionsDonut: {
+        responsive: true,
+        maintainAspectRatio: false,
+        legend: {
+          display: true,
+          position: 'right',
+          labels: {
+            boxWidth: 12,
+            fontSize: 10,
+            usePointStyle: true
+          }
         }
       },
       batsmenColumns: ['Pos', 'Player', 'Matches', 'Runs', 'Avg', 'SR'],
@@ -195,124 +372,124 @@ export default {
           Runs: 120
         }
       ],
-      pointsColumns: ['Pos', 'Team', 'Matches', 'Wins', 'Losses', 'Draw', 'Points'],
+      pointsColumns: ['Pos', 'Team', 'Matches', 'Win', 'Loss', 'Tie', 'Pts'],
       pointsData: [
         {
           Pos: 1,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 2,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 3,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 4,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 5,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 6,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 7,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 8,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 9,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 10,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 11,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 12,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         },
         {
           Pos: 13,
-          Team: 'Royal Challengers Bangalore',
+          Team: 'RCB',
           Matches: 120,
-          Wins: 68,
-          Losses: 47,
-          Draw: 5,
-          Points: 130
+          Win: 68,
+          Loss: 47,
+          Tie: 5,
+          Pts: 130
         }
       ]
     }
@@ -322,5 +499,20 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  select{
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    color: #4a4a4a;
+    font-weight: bold;
+    border-radius: 0;
+    border-bottom: 2px solid #4a4a4a;
+    background-color: transparent;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-left: 0.5rem;
+  }
 
 </style>

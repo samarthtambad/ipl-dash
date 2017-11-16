@@ -1,6 +1,6 @@
 <template>
   <div class="table-element">
-    <table class="table is-striped is-fullwidth">
+    <table class="table is-narrow is-fullwidth">
         <thead>
         <tr>
             <th class="is-size-7" v-for="key in columns">
@@ -33,10 +33,8 @@ export default {
     }
   },
   computed: {
-    
   },
   filters: {
-    
   }
 }
 </script>

@@ -1,20 +1,19 @@
-import csv
-matchFile = open('../assets/data/Match.csv')
-matchReader = csv.reader(matchFile)
-matchData = list(matchReader)
-# print matchData
+import pandas as pd # data processing
+import json
 
-bbbFile = open('../assets/data/Ball_by_Ball.csv')
-bbbReader = csv.reader(bbbFile)
-bbbData = list(bbbReader)
-print bbbData
+balls_df = pd.read_csv('../assets/data/csv_files/processed/ball_by_ball__modified.csv')
+matches_df = pd.read_csv('../assets/data/csv_files/processed/matches_modified.csv')
 
-matchDict = {}
-matchArr = []
-firstMatch = matchData[0]
-for match in matchData:
-    if match.size:
-        matchDict.push()
-        
+# season = matches_df.groupby('season')
+# print season
 
+print matches_df.to_json()
 
+for i in xrange(1,10):
+    season = matches_df[matches_df['season'] == i]
+    team_1 = season['team_1']
+    team_1['val'] = 1
+    atotal = team_1.groupby('team_1').sum()
+    team_2 = season['team_2']
+    team_2['val'] = 1
+    btotal = team_2.groupby('team_2').sum()

@@ -10,7 +10,6 @@ export default {
   },
   computed: {
     chartData: function() {
-      console.log('computed')
       return this.data;
     }
   },
@@ -59,7 +58,7 @@ export default {
   },
   watch: {
     data: function() {
-      console.log(this)
+      // console.log(this)
       this.$data._chart.destroy()
       //this.renderChart(this.data, this.options);
       this.renderDonutChart()

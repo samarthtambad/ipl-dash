@@ -29,7 +29,7 @@ export default {
   },
   data: function () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
     }
   },
   computed: {

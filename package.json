@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "Challenge for job at SocialCops ",
   "author": "Samarth Tambad",
+  "homepage": "https://github.com/samarthtambad/ipl-dash",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "bulma": "^0.6.1",
@@ -16,6 +18,7 @@
     "csvtojson": "^1.1.9",
     "vue": "^2.5.2",
     "vue-chartjs": "^3.0.2",
+    "vue-gh-pages": "^1.6.4",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

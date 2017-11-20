@@ -1,7 +1,7 @@
 <template>
     <div class="team-split">
         <div class="container">
-            <div class="tile is-ancestor">
+            <div class="tile is-ancestor margin-correction">
             <div class="tile">
               <div class="tile is-vertical">
                 <div class="tile is-parent">
@@ -131,6 +131,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .margin-correction{
+    margin-bottom: 0.75em !important;
+  }
   select {
     -webkit-appearance: none;
     -moz-appearance: none;

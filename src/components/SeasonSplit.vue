@@ -1,39 +1,7 @@
 <template>
     <div class="season-split">
         <div class="container">
-            <!-- <div class="tile is-ancestor">
-            <div class="tile is-parent">
-              <article class="tile is-child box">
-                <p class="title has-text-centered is-size-1">60%</p>
-                <p class="subtitle has-text-centered is-size-7">of the toss winners chose to field first</p>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child box">
-                <p class="title has-text-centered is-size-1">4</p>
-                <p class="subtitle has-text-centered is-size-7">average number of balls between each boundary</p>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child box">
-                <p class="title has-text-centered is-size-1">70%</p>
-                <p class="subtitle has-text-centered is-size-7">of the times the team chasing won the match</p>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child box">
-                <p class="title has-text-centered is-size-1">30%</p>
-                <p class="subtitle has-text-centered is-size-7">of the all dismissals were due to catches</p>
-              </article>
-            </div>
-            <div class="tile is-parent">
-              <article class="tile is-child box">
-                <p class="title has-text-centered is-size-1">30%</p>
-                <p class="subtitle has-text-centered is-size-7">of the all dismissals were due to catches</p>
-              </article>
-            </div>
-          </div> -->
-            <div class="tile is-ancestor">
+            <div class="tile is-ancestor margin-correction">
                 <div class="tile is-parent">
                     <article class="tile is-child box">
                         <div class="tile is-parent">
@@ -113,6 +81,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  .margin-correction{
+    margin-bottom: 0.75em !important;
+  }
   select {
     -webkit-appearance: none;
     -moz-appearance: none;

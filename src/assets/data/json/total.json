@@ -1,0 +1,82 @@
+[{
+  "season": 2008,
+  "matches": 116,
+  "wins": 58,
+  "toss_wins": 58,
+  "toss_win_bat_first": 48.44,
+  "toss_win_field_first": 51.56,
+  "bat_first_win_match": 44.12,
+  "field_first_win_match": 55.88
+}, {
+  "season": 2009,
+  "matches": 114,
+  "wins": 57,
+  "toss_wins": 57,
+  "toss_win_bat_first": 62.47,
+  "toss_win_field_first": 37.53,
+  "bat_first_win_match": 59.85,
+  "field_first_win_match": 40.15
+}, {
+  "season": 2010,
+  "matches": 120,
+  "wins": 60,
+  "toss_wins": 60,
+  "toss_win_bat_first": 63.94,
+  "toss_win_field_first": 36.06,
+  "bat_first_win_match": 66.72,
+  "field_first_win_match": 33.28
+}, {
+  "season": 2011,
+  "matches": 146,
+  "wins": 72,
+  "toss_wins": 73,
+  "toss_win_bat_first": 40.62,
+  "toss_win_field_first": 84.38,
+  "bat_first_win_match": 42.96,
+  "field_first_win_match": 82.04
+}, {
+  "season": 2012,
+  "matches": 148,
+  "wins": 74,
+  "toss_wins": 74,
+  "toss_win_bat_first": 56.58,
+  "toss_win_field_first": 55.92,
+  "bat_first_win_match": 57.0,
+  "field_first_win_match": 55.5
+}, {
+  "season": 2013,
+  "matches": 152,
+  "wins": 76,
+  "toss_wins": 76,
+  "toss_win_bat_first": 65.03,
+  "toss_win_field_first": 47.47,
+  "bat_first_win_match": 65.82,
+  "field_first_win_match": 46.68
+}, {
+  "season": 2014,
+  "matches": 120,
+  "wins": 60,
+  "toss_wins": 60,
+  "toss_win_bat_first": 31.98,
+  "toss_win_field_first": 68.02,
+  "bat_first_win_match": 38.79,
+  "field_first_win_match": 61.21
+}, {
+  "season": 2015,
+  "matches": 118,
+  "wins": 57,
+  "toss_wins": 59,
+  "toss_win_bat_first": 42.52,
+  "toss_win_field_first": 57.48,
+  "bat_first_win_match": 39.69,
+  "field_first_win_match": 60.31
+}, {
+  "season": 2016,
+  "matches": 120,
+  "wins": 60,
+  "toss_wins": 60,
+  "toss_win_bat_first": 18.13,
+  "toss_win_field_first": 81.86,
+  "bat_first_win_match": 20.56,
+  "field_first_win_match": 79.44
+}]

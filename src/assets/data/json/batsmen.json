@@ -1,0 +1,901 @@
+[{
+  "season": 2008,
+  "batsman": "SE Marsh",
+  "matches": 11,
+  "balls_faced": 441.0,
+  "batsman_runs": 616,
+  "4s": 59.0,
+  "6s": 26.0,
+  "Avg": 56.0,
+  "SR": 139.68
+}, {
+  "season": 2008,
+  "batsman": "G Gambhir",
+  "matches": 14,
+  "balls_faced": 379.0,
+  "batsman_runs": 534,
+  "4s": 68.0,
+  "6s": 8.0,
+  "Avg": 38.14,
+  "SR": 140.9
+}, {
+  "season": 2008,
+  "batsman": "ST Jayasuriya",
+  "matches": 14,
+  "balls_faced": 309.0,
+  "batsman_runs": 514,
+  "4s": 57.0,
+  "6s": 31.0,
+  "Avg": 36.71,
+  "SR": 166.34
+}, {
+  "season": 2008,
+  "batsman": "SR Watson",
+  "matches": 15,
+  "balls_faced": 311.0,
+  "batsman_runs": 472,
+  "4s": 47.0,
+  "6s": 19.0,
+  "Avg": 31.47,
+  "SR": 151.77
+}, {
+  "season": 2008,
+  "batsman": "GC Smith",
+  "matches": 11,
+  "balls_faced": 362.0,
+  "batsman_runs": 441,
+  "4s": 54.0,
+  "6s": 8.0,
+  "Avg": 40.09,
+  "SR": 121.82
+}, {
+  "season": 2008,
+  "batsman": "AC Gilchrist",
+  "matches": 14,
+  "balls_faced": 318.0,
+  "batsman_runs": 436,
+  "4s": 51.0,
+  "6s": 19.0,
+  "Avg": 31.14,
+  "SR": 137.11
+}, {
+  "season": 2008,
+  "batsman": "YK Pathan",
+  "matches": 15,
+  "balls_faced": 243.0,
+  "batsman_runs": 435,
+  "4s": 43.0,
+  "6s": 25.0,
+  "Avg": 29.0,
+  "SR": 179.01
+}, {
+  "season": 2008,
+  "batsman": "SK Raina",
+  "matches": 14,
+  "balls_faced": 295.0,
+  "batsman_runs": 421,
+  "4s": 35.0,
+  "6s": 18.0,
+  "Avg": 30.07,
+  "SR": 142.71
+}, {
+  "season": 2008,
+  "batsman": "MS Dhoni",
+  "matches": 14,
+  "balls_faced": 310.0,
+  "batsman_runs": 414,
+  "4s": 38.0,
+  "6s": 15.0,
+  "Avg": 29.57,
+  "SR": 133.55
+}, {
+  "season": 2008,
+  "batsman": "V Sehwag",
+  "matches": 14,
+  "balls_faced": 220.0,
+  "batsman_runs": 406,
+  "4s": 46.0,
+  "6s": 21.0,
+  "Avg": 29.0,
+  "SR": 184.55
+}, {
+  "season": 2009,
+  "batsman": "ML Hayden",
+  "matches": 12,
+  "balls_faced": 395.0,
+  "batsman_runs": 572,
+  "4s": 60.0,
+  "6s": 22.0,
+  "Avg": 47.67,
+  "SR": 144.81
+}, {
+  "season": 2009,
+  "batsman": "AC Gilchrist",
+  "matches": 16,
+  "balls_faced": 325.0,
+  "batsman_runs": 495,
+  "4s": 54.0,
+  "6s": 29.0,
+  "Avg": 30.94,
+  "SR": 152.31
+}, {
+  "season": 2009,
+  "batsman": "AB de Villiers",
+  "matches": 13,
+  "balls_faced": 355.0,
+  "batsman_runs": 465,
+  "4s": 39.0,
+  "6s": 12.0,
+  "Avg": 35.77,
+  "SR": 130.99
+}, {
+  "season": 2009,
+  "batsman": "SK Raina",
+  "matches": 14,
+  "balls_faced": 308.0,
+  "batsman_runs": 434,
+  "4s": 37.0,
+  "6s": 21.0,
+  "Avg": 31.0,
+  "SR": 140.91
+}, {
+  "season": 2009,
+  "batsman": "TM Dilshan",
+  "matches": 13,
+  "balls_faced": 341.0,
+  "batsman_runs": 418,
+  "4s": 42.0,
+  "6s": 13.0,
+  "Avg": 32.15,
+  "SR": 122.58
+}, {
+  "season": 2009,
+  "batsman": "JP Duminy",
+  "matches": 12,
+  "balls_faced": 325.0,
+  "batsman_runs": 372,
+  "4s": 26.0,
+  "6s": 11.0,
+  "Avg": 31.0,
+  "SR": 114.46
+}, {
+  "season": 2009,
+  "batsman": "HH Gibbs",
+  "matches": 14,
+  "balls_faced": 331.0,
+  "batsman_runs": 371,
+  "4s": 32.0,
+  "6s": 12.0,
+  "Avg": 26.5,
+  "SR": 112.08
+}, {
+  "season": 2009,
+  "batsman": "BJ Hodge",
+  "matches": 12,
+  "balls_faced": 310.0,
+  "batsman_runs": 365,
+  "4s": 34.0,
+  "6s": 9.0,
+  "Avg": 30.42,
+  "SR": 117.74
+}, {
+  "season": 2009,
+  "batsman": "SR Tendulkar",
+  "matches": 13,
+  "balls_faced": 303.0,
+  "batsman_runs": 364,
+  "4s": 39.0,
+  "6s": 10.0,
+  "Avg": 28.0,
+  "SR": 120.13
+}, {
+  "season": 2009,
+  "batsman": "RG Sharma",
+  "matches": 16,
+  "balls_faced": 315.0,
+  "batsman_runs": 362,
+  "4s": 22.0,
+  "6s": 18.0,
+  "Avg": 22.62,
+  "SR": 114.92
+}, {
+  "season": 2010,
+  "batsman": "SR Tendulkar",
+  "matches": 15,
+  "balls_faced": 466.0,
+  "batsman_runs": 618,
+  "4s": 86.0,
+  "6s": 3.0,
+  "Avg": 41.2,
+  "SR": 132.62
+}, {
+  "season": 2010,
+  "batsman": "JH Kallis",
+  "matches": 16,
+  "balls_faced": 494.0,
+  "batsman_runs": 572,
+  "4s": 67.0,
+  "6s": 9.0,
+  "Avg": 35.75,
+  "SR": 115.79
+}, {
+  "season": 2010,
+  "batsman": "SK Raina",
+  "matches": 17,
+  "balls_faced": 367.0,
+  "batsman_runs": 528,
+  "4s": 45.0,
+  "6s": 23.0,
+  "Avg": 31.06,
+  "SR": 143.87
+}, {
+  "season": 2010,
+  "batsman": "SC Ganguly",
+  "matches": 14,
+  "balls_faced": 419.0,
+  "batsman_runs": 493,
+  "4s": 58.0,
+  "6s": 15.0,
+  "Avg": 35.21,
+  "SR": 117.66
+}, {
+  "season": 2010,
+  "batsman": "M Vijay",
+  "matches": 15,
+  "balls_faced": 292.0,
+  "batsman_runs": 458,
+  "4s": 36.0,
+  "6s": 26.0,
+  "Avg": 30.53,
+  "SR": 156.85
+}, {
+  "season": 2010,
+  "batsman": "DPMD Jayawardene",
+  "matches": 14,
+  "balls_faced": 300.0,
+  "batsman_runs": 445,
+  "4s": 55.0,
+  "6s": 12.0,
+  "Avg": 31.79,
+  "SR": 148.33
+}, {
+  "season": 2010,
+  "batsman": "A Symonds",
+  "matches": 16,
+  "balls_faced": 341.0,
+  "batsman_runs": 429,
+  "4s": 35.0,
+  "6s": 18.0,
+  "Avg": 26.81,
+  "SR": 125.81
+}, {
+  "season": 2010,
+  "batsman": "SS Tiwary",
+  "matches": 15,
+  "balls_faced": 309.0,
+  "batsman_runs": 419,
+  "4s": 29.0,
+  "6s": 18.0,
+  "Avg": 27.93,
+  "SR": 135.6
+}, {
+  "season": 2010,
+  "batsman": "RG Sharma",
+  "matches": 16,
+  "balls_faced": 302.0,
+  "batsman_runs": 404,
+  "4s": 36.0,
+  "6s": 14.0,
+  "Avg": 25.25,
+  "SR": 133.77
+}, {
+  "season": 2010,
+  "batsman": "NV Ojha",
+  "matches": 14,
+  "balls_faced": 285.0,
+  "batsman_runs": 377,
+  "4s": 42.0,
+  "6s": 15.0,
+  "Avg": 26.93,
+  "SR": 132.28
+}, {
+  "season": 2011,
+  "batsman": "CH Gayle",
+  "matches": 12,
+  "balls_faced": 332.0,
+  "batsman_runs": 608,
+  "4s": 57.0,
+  "6s": 44.0,
+  "Avg": 50.67,
+  "SR": 183.13
+}, {
+  "season": 2011,
+  "batsman": "V Kohli",
+  "matches": 16,
+  "balls_faced": 460.0,
+  "batsman_runs": 557,
+  "4s": 55.0,
+  "6s": 16.0,
+  "Avg": 34.81,
+  "SR": 121.09
+}, {
+  "season": 2011,
+  "batsman": "SR Tendulkar",
+  "matches": 16,
+  "balls_faced": 488.0,
+  "batsman_runs": 553,
+  "4s": 67.0,
+  "6s": 5.0,
+  "Avg": 34.56,
+  "SR": 113.32
+}, {
+  "season": 2011,
+  "batsman": "SE Marsh",
+  "matches": 13,
+  "balls_faced": 344.0,
+  "batsman_runs": 504,
+  "4s": 52.0,
+  "6s": 20.0,
+  "Avg": 38.77,
+  "SR": 146.51
+}, {
+  "season": 2011,
+  "batsman": "MEK Hussey",
+  "matches": 14,
+  "balls_faced": 414.0,
+  "batsman_runs": 492,
+  "4s": 53.0,
+  "6s": 6.0,
+  "Avg": 35.14,
+  "SR": 118.84
+}, {
+  "season": 2011,
+  "batsman": "PC Valthaty",
+  "matches": 14,
+  "balls_faced": 338.0,
+  "batsman_runs": 463,
+  "4s": 56.0,
+  "6s": 20.0,
+  "Avg": 33.07,
+  "SR": 136.98
+}, {
+  "season": 2011,
+  "batsman": "SK Raina",
+  "matches": 16,
+  "balls_faced": 325.0,
+  "batsman_runs": 438,
+  "4s": 36.0,
+  "6s": 17.0,
+  "Avg": 27.38,
+  "SR": 134.77
+}, {
+  "season": 2011,
+  "batsman": "M Vijay",
+  "matches": 16,
+  "balls_faced": 339.0,
+  "batsman_runs": 434,
+  "4s": 34.0,
+  "6s": 20.0,
+  "Avg": 27.12,
+  "SR": 128.02
+}, {
+  "season": 2011,
+  "batsman": "V Sehwag",
+  "matches": 11,
+  "balls_faced": 240.0,
+  "batsman_runs": 424,
+  "4s": 51.0,
+  "6s": 18.0,
+  "Avg": 38.55,
+  "SR": 176.67
+}, {
+  "season": 2011,
+  "batsman": "JH Kallis",
+  "matches": 14,
+  "balls_faced": 378.0,
+  "batsman_runs": 424,
+  "4s": 46.0,
+  "6s": 6.0,
+  "Avg": 30.29,
+  "SR": 112.17
+}, {
+  "season": 2012,
+  "batsman": "CH Gayle",
+  "matches": 14,
+  "balls_faced": 456.0,
+  "batsman_runs": 733,
+  "4s": 46.0,
+  "6s": 59.0,
+  "Avg": 52.36,
+  "SR": 160.75
+}, {
+  "season": 2012,
+  "batsman": "G Gambhir",
+  "matches": 17,
+  "balls_faced": 411.0,
+  "batsman_runs": 590,
+  "4s": 64.0,
+  "6s": 17.0,
+  "Avg": 34.71,
+  "SR": 143.55
+}, {
+  "season": 2012,
+  "batsman": "S Dhawan",
+  "matches": 15,
+  "balls_faced": 439.0,
+  "batsman_runs": 569,
+  "4s": 58.0,
+  "6s": 18.0,
+  "Avg": 37.93,
+  "SR": 129.61
+}, {
+  "season": 2012,
+  "batsman": "AM Rahane",
+  "matches": 16,
+  "balls_faced": 433.0,
+  "batsman_runs": 560,
+  "4s": 73.0,
+  "6s": 10.0,
+  "Avg": 35.0,
+  "SR": 129.33
+}, {
+  "season": 2012,
+  "batsman": "V Sehwag",
+  "matches": 16,
+  "balls_faced": 307.0,
+  "batsman_runs": 495,
+  "4s": 57.0,
+  "6s": 19.0,
+  "Avg": 30.94,
+  "SR": 161.24
+}, {
+  "season": 2012,
+  "batsman": "CL White",
+  "matches": 13,
+  "balls_faced": 320.0,
+  "batsman_runs": 479,
+  "4s": 41.0,
+  "6s": 20.0,
+  "Avg": 36.85,
+  "SR": 149.69
+}, {
+  "season": 2012,
+  "batsman": "R Dravid",
+  "matches": 16,
+  "balls_faced": 412.0,
+  "batsman_runs": 462,
+  "4s": 63.0,
+  "6s": 4.0,
+  "Avg": 28.88,
+  "SR": 112.14
+}, {
+  "season": 2012,
+  "batsman": "SK Raina",
+  "matches": 18,
+  "balls_faced": 325.0,
+  "batsman_runs": 441,
+  "4s": 36.0,
+  "6s": 19.0,
+  "Avg": 24.5,
+  "SR": 135.69
+}, {
+  "season": 2012,
+  "batsman": "RG Sharma",
+  "matches": 16,
+  "balls_faced": 342.0,
+  "batsman_runs": 433,
+  "4s": 39.0,
+  "6s": 18.0,
+  "Avg": 27.06,
+  "SR": 126.61
+}, {
+  "season": 2012,
+  "batsman": "Mandeep Singh",
+  "matches": 16,
+  "balls_faced": 342.0,
+  "batsman_runs": 432,
+  "4s": 53.0,
+  "6s": 7.0,
+  "Avg": 27.0,
+  "SR": 126.32
+}, {
+  "season": 2013,
+  "batsman": "MEK Hussey",
+  "matches": 17,
+  "balls_faced": 566.0,
+  "batsman_runs": 733,
+  "4s": 81.0,
+  "6s": 17.0,
+  "Avg": 43.12,
+  "SR": 129.51
+}, {
+  "season": 2013,
+  "batsman": "CH Gayle",
+  "matches": 18,
+  "balls_faced": 459.0,
+  "batsman_runs": 720,
+  "4s": 57.0,
+  "6s": 52.0,
+  "Avg": 40.0,
+  "SR": 156.86
+}, {
+  "season": 2013,
+  "batsman": "V Kohli",
+  "matches": 17,
+  "balls_faced": 459.0,
+  "batsman_runs": 639,
+  "4s": 65.0,
+  "6s": 22.0,
+  "Avg": 37.59,
+  "SR": 139.22
+}, {
+  "season": 2013,
+  "batsman": "SK Raina",
+  "matches": 17,
+  "balls_faced": 365.0,
+  "batsman_runs": 548,
+  "4s": 50.0,
+  "6s": 18.0,
+  "Avg": 32.24,
+  "SR": 150.14
+}, {
+  "season": 2013,
+  "batsman": "SR Watson",
+  "matches": 16,
+  "balls_faced": 380.0,
+  "batsman_runs": 543,
+  "4s": 59.0,
+  "6s": 22.0,
+  "Avg": 33.94,
+  "SR": 142.89
+}, {
+  "season": 2013,
+  "batsman": "RG Sharma",
+  "matches": 19,
+  "balls_faced": 409.0,
+  "batsman_runs": 538,
+  "4s": 35.0,
+  "6s": 28.0,
+  "Avg": 28.32,
+  "SR": 131.54
+}, {
+  "season": 2013,
+  "batsman": "KD Karthik",
+  "matches": 19,
+  "balls_faced": 411.0,
+  "batsman_runs": 510,
+  "4s": 54.0,
+  "6s": 14.0,
+  "Avg": 26.84,
+  "SR": 124.09
+}, {
+  "season": 2013,
+  "batsman": "AM Rahane",
+  "matches": 18,
+  "balls_faced": 458.0,
+  "batsman_runs": 488,
+  "4s": 42.0,
+  "6s": 11.0,
+  "Avg": 27.11,
+  "SR": 106.55
+}, {
+  "season": 2013,
+  "batsman": "R Dravid",
+  "matches": 17,
+  "balls_faced": 425.0,
+  "batsman_runs": 471,
+  "4s": 64.0,
+  "6s": 5.0,
+  "Avg": 27.71,
+  "SR": 110.82
+}, {
+  "season": 2013,
+  "batsman": "MS Dhoni",
+  "matches": 16,
+  "balls_faced": 283.0,
+  "batsman_runs": 461,
+  "4s": 32.0,
+  "6s": 25.0,
+  "Avg": 28.81,
+  "SR": 162.9
+}, {
+  "season": 2014,
+  "batsman": "RV Uthappa",
+  "matches": 16,
+  "balls_faced": 479.0,
+  "batsman_runs": 660,
+  "4s": 74.0,
+  "6s": 18.0,
+  "Avg": 41.25,
+  "SR": 137.79
+}, {
+  "season": 2014,
+  "batsman": "DR Smith",
+  "matches": 16,
+  "balls_faced": 416.0,
+  "batsman_runs": 566,
+  "4s": 50.0,
+  "6s": 34.0,
+  "Avg": 35.38,
+  "SR": 136.06
+}, {
+  "season": 2014,
+  "batsman": "GJ Maxwell",
+  "matches": 16,
+  "balls_faced": 294.0,
+  "batsman_runs": 552,
+  "4s": 48.0,
+  "6s": 36.0,
+  "Avg": 34.5,
+  "SR": 187.76
+}, {
+  "season": 2014,
+  "batsman": "DA Warner",
+  "matches": 14,
+  "balls_faced": 375.0,
+  "batsman_runs": 528,
+  "4s": 39.0,
+  "6s": 24.0,
+  "Avg": 37.71,
+  "SR": 140.8
+}, {
+  "season": 2014,
+  "batsman": "SK Raina",
+  "matches": 16,
+  "balls_faced": 359.0,
+  "batsman_runs": 523,
+  "4s": 51.0,
+  "6s": 19.0,
+  "Avg": 32.69,
+  "SR": 145.68
+}, {
+  "season": 2014,
+  "batsman": "V Sehwag",
+  "matches": 17,
+  "balls_faced": 315.0,
+  "batsman_runs": 455,
+  "4s": 56.0,
+  "6s": 18.0,
+  "Avg": 26.76,
+  "SR": 144.44
+}, {
+  "season": 2014,
+  "batsman": "DA Miller",
+  "matches": 16,
+  "balls_faced": 299.0,
+  "batsman_runs": 446,
+  "4s": 34.0,
+  "6s": 21.0,
+  "Avg": 27.88,
+  "SR": 149.16
+}, {
+  "season": 2014,
+  "batsman": "JP Duminy",
+  "matches": 14,
+  "balls_faced": 305.0,
+  "batsman_runs": 410,
+  "4s": 22.0,
+  "6s": 20.0,
+  "Avg": 29.29,
+  "SR": 134.43
+}, {
+  "season": 2014,
+  "batsman": "MK Pandey",
+  "matches": 17,
+  "balls_faced": 343.0,
+  "batsman_runs": 409,
+  "4s": 35.0,
+  "6s": 11.0,
+  "Avg": 24.06,
+  "SR": 119.24
+}, {
+  "season": 2014,
+  "batsman": "BB McCullum",
+  "matches": 14,
+  "balls_faced": 333.0,
+  "batsman_runs": 405,
+  "4s": 32.0,
+  "6s": 19.0,
+  "Avg": 28.93,
+  "SR": 121.62
+}, {
+  "season": 2015,
+  "batsman": "DA Warner",
+  "matches": 14,
+  "balls_faced": 359.0,
+  "batsman_runs": 562,
+  "4s": 65.0,
+  "6s": 21.0,
+  "Avg": 40.14,
+  "SR": 156.55
+}, {
+  "season": 2015,
+  "batsman": "AM Rahane",
+  "matches": 13,
+  "balls_faced": 413.0,
+  "batsman_runs": 540,
+  "4s": 53.0,
+  "6s": 13.0,
+  "Avg": 41.54,
+  "SR": 130.75
+}, {
+  "season": 2015,
+  "batsman": "LMP Simmons",
+  "matches": 13,
+  "balls_faced": 441.0,
+  "batsman_runs": 540,
+  "4s": 56.0,
+  "6s": 21.0,
+  "Avg": 41.54,
+  "SR": 122.45
+}, {
+  "season": 2015,
+  "batsman": "AB de Villiers",
+  "matches": 14,
+  "balls_faced": 293.0,
+  "batsman_runs": 513,
+  "4s": 60.0,
+  "6s": 22.0,
+  "Avg": 36.64,
+  "SR": 175.09
+}, {
+  "season": 2015,
+  "batsman": "V Kohli",
+  "matches": 16,
+  "balls_faced": 386.0,
+  "batsman_runs": 505,
+  "4s": 35.0,
+  "6s": 23.0,
+  "Avg": 31.56,
+  "SR": 130.83
+}, {
+  "season": 2015,
+  "batsman": "CH Gayle",
+  "matches": 14,
+  "balls_faced": 333.0,
+  "batsman_runs": 491,
+  "4s": 39.0,
+  "6s": 38.0,
+  "Avg": 35.07,
+  "SR": 147.45
+}, {
+  "season": 2015,
+  "batsman": "RG Sharma",
+  "matches": 16,
+  "balls_faced": 333.0,
+  "batsman_runs": 482,
+  "4s": 41.0,
+  "6s": 21.0,
+  "Avg": 30.12,
+  "SR": 144.74
+}, {
+  "season": 2015,
+  "batsman": "SS Iyer",
+  "matches": 14,
+  "balls_faced": 342.0,
+  "batsman_runs": 439,
+  "4s": 41.0,
+  "6s": 21.0,
+  "Avg": 31.36,
+  "SR": 128.36
+}, {
+  "season": 2015,
+  "batsman": "BB McCullum",
+  "matches": 14,
+  "balls_faced": 280.0,
+  "batsman_runs": 436,
+  "4s": 51.0,
+  "6s": 23.0,
+  "Avg": 31.14,
+  "SR": 155.71
+}, {
+  "season": 2015,
+  "batsman": "KA Pollard",
+  "matches": 14,
+  "balls_faced": 256.0,
+  "batsman_runs": 419,
+  "4s": 28.0,
+  "6s": 28.0,
+  "Avg": 29.93,
+  "SR": 163.67
+}, {
+  "season": 2016,
+  "batsman": "V Kohli",
+  "matches": 16,
+  "balls_faced": 640.0,
+  "batsman_runs": 973,
+  "4s": 84.0,
+  "6s": 38.0,
+  "Avg": 60.81,
+  "SR": 152.03
+}, {
+  "season": 2016,
+  "batsman": "DA Warner",
+  "matches": 17,
+  "balls_faced": 560.0,
+  "batsman_runs": 848,
+  "4s": 88.0,
+  "6s": 31.0,
+  "Avg": 49.88,
+  "SR": 151.43
+}, {
+  "season": 2016,
+  "batsman": "AB de Villiers",
+  "matches": 16,
+  "balls_faced": 407.0,
+  "batsman_runs": 687,
+  "4s": 57.0,
+  "6s": 37.0,
+  "Avg": 42.94,
+  "SR": 168.8
+}, {
+  "season": 2016,
+  "batsman": "S Dhawan",
+  "matches": 17,
+  "balls_faced": 429.0,
+  "batsman_runs": 501,
+  "4s": 51.0,
+  "6s": 8.0,
+  "Avg": 29.47,
+  "SR": 116.78
+}, {
+  "season": 2016,
+  "batsman": "G Gambhir",
+  "matches": 15,
+  "balls_faced": 411.0,
+  "batsman_runs": 501,
+  "4s": 54.0,
+  "6s": 6.0,
+  "Avg": 33.4,
+  "SR": 121.9
+}, {
+  "season": 2016,
+  "batsman": "RG Sharma",
+  "matches": 14,
+  "balls_faced": 368.0,
+  "batsman_runs": 489,
+  "4s": 49.0,
+  "6s": 17.0,
+  "Avg": 34.93,
+  "SR": 132.88
+}, {
+  "season": 2016,
+  "batsman": "AM Rahane",
+  "matches": 14,
+  "balls_faced": 379.0,
+  "batsman_runs": 480,
+  "4s": 54.0,
+  "6s": 9.0,
+  "Avg": 34.29,
+  "SR": 126.65
+}, {
+  "season": 2016,
+  "batsman": "M Vijay",
+  "matches": 14,
+  "balls_faced": 364.0,
+  "batsman_runs": 453,
+  "4s": 50.0,
+  "6s": 10.0,
+  "Avg": 32.36,
+  "SR": 124.45
+}, {
+  "season": 2016,
+  "batsman": "Q de Kock",
+  "matches": 13,
+  "balls_faced": 327.0,
+  "batsman_runs": 445,
+  "4s": 52.0,
+  "6s": 13.0,
+  "Avg": 34.23,
+  "SR": 136.09
+}, {
+  "season": 2016,
+  "batsman": "SK Raina",
+  "matches": 15,
+  "balls_faced": 312.0,
+  "batsman_runs": 399,
+  "4s": 39.0,
+  "6s": 10.0,
+  "Avg": 26.6,
+  "SR": 127.88
+}]

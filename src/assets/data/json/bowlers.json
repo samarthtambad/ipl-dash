@@ -1,0 +1,811 @@
+[{
+  "season": 2008,
+  "bowler": "Sohail Tanvir",
+  "matches": 11,
+  "over": 42,
+  "runs": 266,
+  "wickets": 22.0,
+  "Econ": 6.41,
+  "Avg": 12.091
+}, {
+  "season": 2008,
+  "bowler": "SK Warne",
+  "matches": 15,
+  "over": 52,
+  "runs": 404,
+  "wickets": 19.0,
+  "Econ": 7.93,
+  "Avg": 21.263
+}, {
+  "season": 2008,
+  "bowler": "S Sreesanth",
+  "matches": 15,
+  "over": 52,
+  "runs": 442,
+  "wickets": 19.0,
+  "Econ": 8.76,
+  "Avg": 23.263
+}, {
+  "season": 2008,
+  "bowler": "MS Gony",
+  "matches": 16,
+  "over": 60,
+  "runs": 443,
+  "wickets": 17.0,
+  "Econ": 7.46,
+  "Avg": 26.059
+}, {
+  "season": 2008,
+  "bowler": "SR Watson",
+  "matches": 15,
+  "over": 55,
+  "runs": 383,
+  "wickets": 17.0,
+  "Econ": 6.83,
+  "Avg": 22.529
+}, {
+  "season": 2008,
+  "bowler": "PP Chawla",
+  "matches": 15,
+  "over": 47,
+  "runs": 389,
+  "wickets": 17.0,
+  "Econ": 9.66,
+  "Avg": 22.882
+}, {
+  "season": 2008,
+  "bowler": "JA Morkel",
+  "matches": 13,
+  "over": 48,
+  "runs": 399,
+  "wickets": 17.0,
+  "Econ": 8.53,
+  "Avg": 23.471
+}, {
+  "season": 2008,
+  "bowler": "VY Mahesh",
+  "matches": 11,
+  "over": 43,
+  "runs": 370,
+  "wickets": 16.0,
+  "Econ": 8.67,
+  "Avg": 23.125
+}, {
+  "season": 2008,
+  "bowler": "IK Pathan",
+  "matches": 14,
+  "over": 54,
+  "runs": 350,
+  "wickets": 15.0,
+  "Econ": 6.48,
+  "Avg": 23.333
+}, {
+  "season": 2008,
+  "bowler": "RP Singh",
+  "matches": 14,
+  "over": 52,
+  "runs": 442,
+  "wickets": 15.0,
+  "Econ": 8.3,
+  "Avg": 29.467
+}, {
+  "season": 2009,
+  "bowler": "RP Singh",
+  "matches": 16,
+  "over": 61,
+  "runs": 417,
+  "wickets": 23.0,
+  "Econ": 6.92,
+  "Avg": 18.13
+}, {
+  "season": 2009,
+  "bowler": "A Kumble",
+  "matches": 16,
+  "over": 60,
+  "runs": 347,
+  "wickets": 21.0,
+  "Econ": 5.89,
+  "Avg": 16.524
+}, {
+  "season": 2009,
+  "bowler": "A Nehra",
+  "matches": 13,
+  "over": 51,
+  "runs": 346,
+  "wickets": 19.0,
+  "Econ": 6.71,
+  "Avg": 18.211
+}, {
+  "season": 2009,
+  "bowler": "SL Malinga",
+  "matches": 13,
+  "over": 51,
+  "runs": 312,
+  "wickets": 18.0,
+  "Econ": 6.07,
+  "Avg": 17.333
+}, {
+  "season": 2009,
+  "bowler": "PP Ojha",
+  "matches": 15,
+  "over": 54,
+  "runs": 348,
+  "wickets": 18.0,
+  "Econ": 6.47,
+  "Avg": 19.333
+}, {
+  "season": 2009,
+  "bowler": "IK Pathan",
+  "matches": 14,
+  "over": 51,
+  "runs": 390,
+  "wickets": 17.0,
+  "Econ": 7.78,
+  "Avg": 22.941
+}, {
+  "season": 2009,
+  "bowler": "MM Patel",
+  "matches": 11,
+  "over": 35,
+  "runs": 241,
+  "wickets": 16.0,
+  "Econ": 7.03,
+  "Avg": 15.062
+}, {
+  "season": 2009,
+  "bowler": "PJ Sangwan",
+  "matches": 13,
+  "over": 47,
+  "runs": 360,
+  "wickets": 15.0,
+  "Econ": 7.89,
+  "Avg": 24.0
+}, {
+  "season": 2009,
+  "bowler": "DP Nannes",
+  "matches": 13,
+  "over": 50,
+  "runs": 372,
+  "wickets": 15.0,
+  "Econ": 7.55,
+  "Avg": 24.8
+}, {
+  "season": 2009,
+  "bowler": "M Muralitharan",
+  "matches": 13,
+  "over": 50,
+  "runs": 261,
+  "wickets": 14.0,
+  "Econ": 5.26,
+  "Avg": 18.643
+}, {
+  "season": 2010,
+  "bowler": "PP Ojha",
+  "matches": 16,
+  "over": 59,
+  "runs": 429,
+  "wickets": 21.0,
+  "Econ": 7.5,
+  "Avg": 20.429
+}, {
+  "season": 2010,
+  "bowler": "A Kumble",
+  "matches": 16,
+  "over": 64,
+  "runs": 407,
+  "wickets": 17.0,
+  "Econ": 6.36,
+  "Avg": 23.941
+}, {
+  "season": 2010,
+  "bowler": "A Mishra",
+  "matches": 14,
+  "over": 53,
+  "runs": 363,
+  "wickets": 17.0,
+  "Econ": 6.88,
+  "Avg": 21.353
+}, {
+  "season": 2010,
+  "bowler": "Harbhajan Singh",
+  "matches": 14,
+  "over": 54,
+  "runs": 377,
+  "wickets": 17.0,
+  "Econ": 6.96,
+  "Avg": 22.176
+}, {
+  "season": 2010,
+  "bowler": "R Vinay Kumar",
+  "matches": 14,
+  "over": 47,
+  "runs": 396,
+  "wickets": 16.0,
+  "Econ": 8.59,
+  "Avg": 24.75
+}, {
+  "season": 2010,
+  "bowler": "M Muralitharan",
+  "matches": 13,
+  "over": 49,
+  "runs": 339,
+  "wickets": 16.0,
+  "Econ": 7.1,
+  "Avg": 21.188
+}, {
+  "season": 2010,
+  "bowler": "DW Steyn",
+  "matches": 15,
+  "over": 59,
+  "runs": 406,
+  "wickets": 15.0,
+  "Econ": 6.83,
+  "Avg": 27.067
+}, {
+  "season": 2010,
+  "bowler": "SL Malinga",
+  "matches": 13,
+  "over": 50,
+  "runs": 344,
+  "wickets": 15.0,
+  "Econ": 7.04,
+  "Avg": 22.933
+}, {
+  "season": 2010,
+  "bowler": "KA Pollard",
+  "matches": 12,
+  "over": 37,
+  "runs": 274,
+  "wickets": 15.0,
+  "Econ": 8.0,
+  "Avg": 18.267
+}, {
+  "season": 2010,
+  "bowler": "IK Pathan",
+  "matches": 14,
+  "over": 48,
+  "runs": 426,
+  "wickets": 15.0,
+  "Econ": 9.27,
+  "Avg": 28.4
+}, {
+  "season": 2011,
+  "bowler": "SL Malinga",
+  "matches": 16,
+  "over": 64,
+  "runs": 375,
+  "wickets": 28.0,
+  "Econ": 5.86,
+  "Avg": 13.393
+}, {
+  "season": 2011,
+  "bowler": "MM Patel",
+  "matches": 15,
+  "over": 55,
+  "runs": 358,
+  "wickets": 22.0,
+  "Econ": 6.39,
+  "Avg": 16.273
+}, {
+  "season": 2011,
+  "bowler": "S Aravind",
+  "matches": 13,
+  "over": 46,
+  "runs": 368,
+  "wickets": 21.0,
+  "Econ": 8.22,
+  "Avg": 17.524
+}, {
+  "season": 2011,
+  "bowler": "R Ashwin",
+  "matches": 16,
+  "over": 63,
+  "runs": 388,
+  "wickets": 20.0,
+  "Econ": 6.12,
+  "Avg": 19.4
+}, {
+  "season": 2011,
+  "bowler": "A Mishra",
+  "matches": 14,
+  "over": 54,
+  "runs": 358,
+  "wickets": 19.0,
+  "Econ": 6.73,
+  "Avg": 18.842
+}, {
+  "season": 2011,
+  "bowler": "DE Bollinger",
+  "matches": 13,
+  "over": 47,
+  "runs": 329,
+  "wickets": 17.0,
+  "Econ": 6.97,
+  "Avg": 19.353
+}, {
+  "season": 2011,
+  "bowler": "RJ Harris",
+  "matches": 13,
+  "over": 47,
+  "runs": 382,
+  "wickets": 16.0,
+  "Econ": 8.03,
+  "Avg": 23.875
+}, {
+  "season": 2011,
+  "bowler": "R Sharma",
+  "matches": 14,
+  "over": 50,
+  "runs": 273,
+  "wickets": 16.0,
+  "Econ": 5.39,
+  "Avg": 17.062
+}, {
+  "season": 2011,
+  "bowler": "PP Chawla",
+  "matches": 12,
+  "over": 42,
+  "runs": 336,
+  "wickets": 16.0,
+  "Econ": 8.33,
+  "Avg": 21.0
+}, {
+  "season": 2011,
+  "bowler": "Iqbal Abdulla",
+  "matches": 15,
+  "over": 50,
+  "runs": 305,
+  "wickets": 16.0,
+  "Econ": 6.18,
+  "Avg": 19.062
+}, {
+  "season": 2012,
+  "bowler": "M Morkel",
+  "matches": 16,
+  "over": 63,
+  "runs": 453,
+  "wickets": 25.0,
+  "Econ": 7.17,
+  "Avg": 18.12
+}, {
+  "season": 2012,
+  "bowler": "SP Narine",
+  "matches": 15,
+  "over": 60,
+  "runs": 324,
+  "wickets": 24.0,
+  "Econ": 5.4,
+  "Avg": 13.5
+}, {
+  "season": 2012,
+  "bowler": "SL Malinga",
+  "matches": 14,
+  "over": 56,
+  "runs": 350,
+  "wickets": 22.0,
+  "Econ": 6.25,
+  "Avg": 15.909
+}, {
+  "season": 2012,
+  "bowler": "R Vinay Kumar",
+  "matches": 14,
+  "over": 56,
+  "runs": 480,
+  "wickets": 19.0,
+  "Econ": 8.57,
+  "Avg": 25.263
+}, {
+  "season": 2012,
+  "bowler": "UT Yadav",
+  "matches": 17,
+  "over": 61,
+  "runs": 453,
+  "wickets": 19.0,
+  "Econ": 7.31,
+  "Avg": 23.842
+}, {
+  "season": 2012,
+  "bowler": "DW Steyn",
+  "matches": 12,
+  "over": 47,
+  "runs": 285,
+  "wickets": 18.0,
+  "Econ": 6.15,
+  "Avg": 15.833
+}, {
+  "season": 2012,
+  "bowler": "P Awana",
+  "matches": 12,
+  "over": 47,
+  "runs": 372,
+  "wickets": 17.0,
+  "Econ": 8.03,
+  "Avg": 21.882
+}, {
+  "season": 2012,
+  "bowler": "Z Khan",
+  "matches": 15,
+  "over": 60,
+  "runs": 453,
+  "wickets": 17.0,
+  "Econ": 7.55,
+  "Avg": 26.647
+}, {
+  "season": 2012,
+  "bowler": "KA Pollard",
+  "matches": 14,
+  "over": 44,
+  "runs": 350,
+  "wickets": 16.0,
+  "Econ": 8.73,
+  "Avg": 21.875
+}, {
+  "season": 2012,
+  "bowler": "PP Chawla",
+  "matches": 16,
+  "over": 57,
+  "runs": 419,
+  "wickets": 16.0,
+  "Econ": 7.65,
+  "Avg": 26.188
+}, {
+  "season": 2013,
+  "bowler": "DJ Bravo",
+  "matches": 18,
+  "over": 63,
+  "runs": 497,
+  "wickets": 32.0,
+  "Econ": 7.86,
+  "Avg": 15.531
+}, {
+  "season": 2013,
+  "bowler": "JP Faulkner",
+  "matches": 16,
+  "over": 64,
+  "runs": 427,
+  "wickets": 28.0,
+  "Econ": 6.67,
+  "Avg": 15.25
+}, {
+  "season": 2013,
+  "bowler": "Harbhajan Singh",
+  "matches": 19,
+  "over": 70,
+  "runs": 456,
+  "wickets": 24.0,
+  "Econ": 6.82,
+  "Avg": 19.0
+}, {
+  "season": 2013,
+  "bowler": "MG Johnson",
+  "matches": 17,
+  "over": 64,
+  "runs": 459,
+  "wickets": 24.0,
+  "Econ": 7.17,
+  "Avg": 19.125
+}, {
+  "season": 2013,
+  "bowler": "R Vinay Kumar",
+  "matches": 17,
+  "over": 62,
+  "runs": 513,
+  "wickets": 23.0,
+  "Econ": 8.87,
+  "Avg": 22.304
+}, {
+  "season": 2013,
+  "bowler": "SP Narine",
+  "matches": 16,
+  "over": 64,
+  "runs": 350,
+  "wickets": 22.0,
+  "Econ": 5.47,
+  "Avg": 15.909
+}, {
+  "season": 2013,
+  "bowler": "A Mishra",
+  "matches": 17,
+  "over": 62,
+  "runs": 394,
+  "wickets": 21.0,
+  "Econ": 6.7,
+  "Avg": 18.762
+}, {
+  "season": 2013,
+  "bowler": "SL Malinga",
+  "matches": 17,
+  "over": 66,
+  "runs": 468,
+  "wickets": 20.0,
+  "Econ": 7.02,
+  "Avg": 23.4
+}, {
+  "season": 2013,
+  "bowler": "MM Sharma",
+  "matches": 15,
+  "over": 51,
+  "runs": 326,
+  "wickets": 20.0,
+  "Econ": 6.79,
+  "Avg": 16.3
+}, {
+  "season": 2013,
+  "bowler": "DW Steyn",
+  "matches": 18,
+  "over": 69,
+  "runs": 399,
+  "wickets": 19.0,
+  "Econ": 6.17,
+  "Avg": 21.0
+}, {
+  "season": 2014,
+  "bowler": "MM Sharma",
+  "matches": 16,
+  "over": 54,
+  "runs": 452,
+  "wickets": 23.0,
+  "Econ": 8.25,
+  "Avg": 19.652
+}, {
+  "season": 2014,
+  "bowler": "SP Narine",
+  "matches": 17,
+  "over": 65,
+  "runs": 418,
+  "wickets": 21.0,
+  "Econ": 6.63,
+  "Avg": 19.905
+}, {
+  "season": 2014,
+  "bowler": "B Kumar",
+  "matches": 14,
+  "over": 55,
+  "runs": 354,
+  "wickets": 20.0,
+  "Econ": 6.45,
+  "Avg": 17.7
+}, {
+  "season": 2014,
+  "bowler": "RA Jadeja",
+  "matches": 16,
+  "over": 55,
+  "runs": 443,
+  "wickets": 19.0,
+  "Econ": 8.32,
+  "Avg": 23.316
+}, {
+  "season": 2014,
+  "bowler": "Sandeep Sharma",
+  "matches": 11,
+  "over": 41,
+  "runs": 354,
+  "wickets": 18.0,
+  "Econ": 8.68,
+  "Avg": 19.667
+}, {
+  "season": 2014,
+  "bowler": "MG Johnson",
+  "matches": 14,
+  "over": 55,
+  "runs": 444,
+  "wickets": 17.0,
+  "Econ": 8.12,
+  "Avg": 26.118
+}, {
+  "season": 2014,
+  "bowler": "AR Patel",
+  "matches": 17,
+  "over": 66,
+  "runs": 405,
+  "wickets": 17.0,
+  "Econ": 6.12,
+  "Avg": 23.824
+}, {
+  "season": 2014,
+  "bowler": "SL Malinga",
+  "matches": 10,
+  "over": 40,
+  "runs": 258,
+  "wickets": 16.0,
+  "Econ": 6.45,
+  "Avg": 16.125
+}, {
+  "season": 2014,
+  "bowler": "R Ashwin",
+  "matches": 16,
+  "over": 60,
+  "runs": 437,
+  "wickets": 16.0,
+  "Econ": 7.47,
+  "Avg": 27.312
+}, {
+  "season": 2014,
+  "bowler": "VR Aaron",
+  "matches": 10,
+  "over": 37,
+  "runs": 299,
+  "wickets": 16.0,
+  "Econ": 8.13,
+  "Avg": 18.688
+}, {
+  "season": 2015,
+  "bowler": "DJ Bravo",
+  "matches": 16,
+  "over": 54,
+  "runs": 426,
+  "wickets": 26.0,
+  "Econ": 8.05,
+  "Avg": 16.385
+}, {
+  "season": 2015,
+  "bowler": "SL Malinga",
+  "matches": 15,
+  "over": 60,
+  "runs": 444,
+  "wickets": 24.0,
+  "Econ": 7.4,
+  "Avg": 18.5
+}, {
+  "season": 2015,
+  "bowler": "YS Chahal",
+  "matches": 14,
+  "over": 48,
+  "runs": 415,
+  "wickets": 23.0,
+  "Econ": 9.16,
+  "Avg": 18.043
+}, {
+  "season": 2015,
+  "bowler": "A Nehra",
+  "matches": 16,
+  "over": 62,
+  "runs": 449,
+  "wickets": 22.0,
+  "Econ": 7.34,
+  "Avg": 20.409
+}, {
+  "season": 2015,
+  "bowler": "MA Starc",
+  "matches": 12,
+  "over": 43,
+  "runs": 291,
+  "wickets": 20.0,
+  "Econ": 6.97,
+  "Avg": 14.55
+}, {
+  "season": 2015,
+  "bowler": "Harbhajan Singh",
+  "matches": 15,
+  "over": 57,
+  "runs": 446,
+  "wickets": 18.0,
+  "Econ": 8.03,
+  "Avg": 24.778
+}, {
+  "season": 2015,
+  "bowler": "MJ McClenaghan",
+  "matches": 12,
+  "over": 47,
+  "runs": 386,
+  "wickets": 18.0,
+  "Econ": 8.36,
+  "Avg": 21.444
+}, {
+  "season": 2015,
+  "bowler": "B Kumar",
+  "matches": 14,
+  "over": 52,
+  "runs": 407,
+  "wickets": 18.0,
+  "Econ": 8.2,
+  "Avg": 22.611
+}, {
+  "season": 2015,
+  "bowler": "HV Patel",
+  "matches": 14,
+  "over": 44,
+  "runs": 328,
+  "wickets": 17.0,
+  "Econ": 7.82,
+  "Avg": 19.294
+}, {
+  "season": 2015,
+  "bowler": "D Wiese",
+  "matches": 13,
+  "over": 43,
+  "runs": 353,
+  "wickets": 16.0,
+  "Econ": 8.12,
+  "Avg": 22.062
+}, {
+  "season": 2016,
+  "bowler": "B Kumar",
+  "matches": 17,
+  "over": 66,
+  "runs": 490,
+  "wickets": 23.0,
+  "Econ": 7.4,
+  "Avg": 21.304
+}, {
+  "season": 2016,
+  "bowler": "YS Chahal",
+  "matches": 13,
+  "over": 50,
+  "runs": 401,
+  "wickets": 21.0,
+  "Econ": 8.02,
+  "Avg": 19.095
+}, {
+  "season": 2016,
+  "bowler": "SR Watson",
+  "matches": 16,
+  "over": 57,
+  "runs": 485,
+  "wickets": 20.0,
+  "Econ": 8.22,
+  "Avg": 24.25
+}, {
+  "season": 2016,
+  "bowler": "DS Kulkarni",
+  "matches": 14,
+  "over": 49,
+  "runs": 364,
+  "wickets": 18.0,
+  "Econ": 7.76,
+  "Avg": 20.222
+}, {
+  "season": 2016,
+  "bowler": "Mustafizur Rahman",
+  "matches": 16,
+  "over": 61,
+  "runs": 421,
+  "wickets": 17.0,
+  "Econ": 6.99,
+  "Avg": 24.765
+}, {
+  "season": 2016,
+  "bowler": "DJ Bravo",
+  "matches": 15,
+  "over": 56,
+  "runs": 494,
+  "wickets": 17.0,
+  "Econ": 8.86,
+  "Avg": 29.059
+}, {
+  "season": 2016,
+  "bowler": "MJ McClenaghan",
+  "matches": 14,
+  "over": 54,
+  "runs": 436,
+  "wickets": 17.0,
+  "Econ": 8.09,
+  "Avg": 25.647
+}, {
+  "season": 2016,
+  "bowler": "JJ Bumrah",
+  "matches": 14,
+  "over": 52,
+  "runs": 406,
+  "wickets": 15.0,
+  "Econ": 7.77,
+  "Avg": 27.067
+}, {
+  "season": 2016,
+  "bowler": "Sandeep Sharma",
+  "matches": 14,
+  "over": 50,
+  "runs": 366,
+  "wickets": 15.0,
+  "Econ": 7.32,
+  "Avg": 24.4
+}, {
+  "season": 2016,
+  "bowler": "AD Russell",
+  "matches": 12,
+  "over": 37,
+  "runs": 291,
+  "wickets": 15.0,
+  "Econ": 8.48,
+  "Avg": 19.4
+}]

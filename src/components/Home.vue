@@ -36,13 +36,14 @@
             </div>
           </div>
 
-          <div class="tile is-ancestor">
+          <!-- <div class="tile is-ancestor">
             <div class="tile is-parent">
               <article class="tile is-child box">
                 
                 <div class="tile is-parent">
                   <span>Filter By:  </span>
-                  <select id="filter">
+                  <select id="filter1" v-model="selected" v-on:change="onFilterChange">
+                    <option disabled value="">Please select one</option>
                     <option>All Seasons</option>
                     <option>Season 1</option>
                     <option>Season 2</option>
@@ -73,7 +74,9 @@
                 </div>
               </article>
             </div>
-          </div>
+          </div> -->
+          
+          <season-split></season-split>
 
           <div class="tile is-ancestor">
             <div class="tile">
@@ -252,48 +255,81 @@
 </template>
 
 <script>
-import DonutChart from './DonutChart'
-import LineChart from './LineChart'
-import TableElement from './TableElement'
+import DonutChart from "./DonutChart";
+import LineChart from "./LineChart";
+import TableElement from "./TableElement";
+import SeasonSplit from "./SeasonSplit";
+
+import teamList from "../assets/data/processed/data/teamList.json";
+import teamData from "../assets/data/processed/data/teams.json";
+console.log(this.$refs);
 
 export default {
-  name: 'Home',
-  components: { DonutChart, LineChart, TableElement },
-  data () {
+  name: "Home",
+  components: { DonutChart, LineChart, TableElement, SeasonSplit },
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App',
+      msg: "Welcome to Your Vue.js App",
+      selected: "",
+      teamList: teamList,
+      teamData: teamData,
       donutData: {
-        labels: ['Royal Challengers Bangalore', 'Kolkata Knight Riders', 'Mumbai Indians', 'Chennai Super Kings', 'Rajasthan Royals', 'Delhi Daredevils', 'Kings XI Punjab', 'Deccan Chargers', 'Pune Warriors', 'Kochi Tuskers Kerala', 'Sunrisers Hyderabad', 'Rising Pune Supergiants', 'Gujarat Lions'],
+        labels: [
+          "Royal Challengers Bangalore",
+          "Kolkata Knight Riders",
+          "Mumbai Indians",
+          "Chennai Super Kings",
+          "Rajasthan Royals",
+          "Delhi Daredevils",
+          "Kings XI Punjab",
+          "Deccan Chargers",
+          "Pune Warriors",
+          "Kochi Tuskers Kerala",
+          "Sunrisers Hyderabad",
+          "Rising Pune Supergiants",
+          "Gujarat Lions"
+        ],
         datasets: [
           {
             backgroundColor: [
-              '#ED5F5A',
-              '#70FFA0',
-              '#CCCCCC',
-              '#EA8CFF',
-              '#47C2FF',
-              '#F4F78F',
-              '#4893B2',
-              '#FECEB5',
-              '#2B9E86',
-              '#D38E7D',
-              '#B1FFFF',
-              '#A26B28',
-              '#003468'
+              "#ED5F5A",
+              "#70FFA0",
+              "#CCCCCC",
+              "#EA8CFF",
+              "#47C2FF",
+              "#F4F78F",
+              "#4893B2",
+              "#FECEB5",
+              "#2B9E86",
+              "#D38E7D",
+              "#B1FFFF",
+              "#A26B28",
+              "#003468"
             ],
             cutoutPercentage: 0,
-            label: 'RCB',
+            label: "RCB",
             data: [25, 12, 24, 12, 43, 32, 21, 25, 12, 24, 43, 32, 21]
           }
         ]
       },
       lineData: {
-        labels: ['2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017'],
+        labels: [
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017"
+        ],
         datasets: [
           {
-            label: 'Royal Challengers Bangalore',
-            backgroundColor: '#ED5F5A',
-            borderColor: '#ED5F5A',
+            label: "Royal Challengers Bangalore",
+            backgroundColor: "#ED5F5A",
+            borderColor: "#ED5F5A",
             fill: false,
             data: [25, 12, 24, 10, 16, 8, 19, 21, 15, 11]
           }
@@ -304,7 +340,7 @@ export default {
         maintainAspectRatio: false,
         legend: {
           display: false,
-          position: 'right',
+          position: "right",
           labels: {
             boxWidth: 12,
             fontSize: 10,
@@ -315,20 +351,24 @@ export default {
           intersect: false
         },
         scales: {
-          xAxes: [{
-            id: 'x-axis',
-            scaleLabel: {
-              display: true,
-              labelString: 'Season'
+          xAxes: [
+            {
+              id: "x-axis",
+              scaleLabel: {
+                display: true,
+                labelString: "Season"
+              }
             }
-          }],
-          yAxes: [{
-            id: 'y-axis',
-            scaleLabel: {
-              display: true,
-              labelString: 'Wins'
+          ],
+          yAxes: [
+            {
+              id: "y-axis",
+              scaleLabel: {
+                display: true,
+                labelString: "Wins"
+              }
             }
-          }]
+          ]
         }
       },
       chartOptionsDonut: {
@@ -336,7 +376,7 @@ export default {
         maintainAspectRatio: false,
         legend: {
           display: true,
-          position: 'right',
+          position: "right",
           labels: {
             boxWidth: 12,
             fontSize: 10,
@@ -344,39 +384,39 @@ export default {
           }
         }
       },
-      batsmenColumns: ['Pos', 'Player', 'Matches', 'Runs', 'Avg', 'SR'],
+      batsmenColumns: ["Pos", "Player", "Matches", "Runs", "Avg", "SR"],
       batsmenData: [
         {
           Pos: 1,
-          Player: 'Virat Kohli',
+          Player: "Virat Kohli",
           Runs: 120
         },
         {
           Pos: 2,
-          Player: 'Suresh Raina',
+          Player: "Suresh Raina",
           Runs: 100
         },
         {
           Pos: 3,
-          Player: 'Virat Kohli',
+          Player: "Virat Kohli",
           Runs: 120
         },
         {
           Pos: 4,
-          Player: 'Suresh Raina',
+          Player: "Suresh Raina",
           Runs: 100
         },
         {
           Pos: 5,
-          Player: 'Virat Kohli',
+          Player: "Virat Kohli",
           Runs: 120
         }
       ],
-      pointsColumns: ['Pos', 'Team', 'Matches', 'Win', 'Loss', 'Tie', 'Pts'],
+      pointsColumns: ["Pos", "Team", "Matches", "Win", "Loss", "Tie", "Pts"],
       pointsData: [
         {
           Pos: 1,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -385,7 +425,7 @@ export default {
         },
         {
           Pos: 2,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -394,7 +434,7 @@ export default {
         },
         {
           Pos: 3,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -403,7 +443,7 @@ export default {
         },
         {
           Pos: 4,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -412,7 +452,7 @@ export default {
         },
         {
           Pos: 5,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -421,7 +461,7 @@ export default {
         },
         {
           Pos: 6,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -430,7 +470,7 @@ export default {
         },
         {
           Pos: 7,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -439,7 +479,7 @@ export default {
         },
         {
           Pos: 8,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -448,7 +488,7 @@ export default {
         },
         {
           Pos: 9,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -457,7 +497,7 @@ export default {
         },
         {
           Pos: 10,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -466,7 +506,7 @@ export default {
         },
         {
           Pos: 11,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -475,7 +515,7 @@ export default {
         },
         {
           Pos: 12,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -484,7 +524,7 @@ export default {
         },
         {
           Pos: 13,
-          Team: 'RCB',
+          Team: "RCB",
           Matches: 120,
           Win: 68,
           Loss: 47,
@@ -492,27 +532,26 @@ export default {
           Pts: 130
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  select{
-    -webkit-appearance: none; 
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    outline: none;
-    color: #4a4a4a;
-    font-weight: bold;
-    border-radius: 0;
-    border-bottom: 2px solid #4a4a4a;
-    background-color: transparent;
-    font-size: 0.9rem;
-    text-align: center;
-    margin-left: 0.5rem;
-  }
-
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  color: #4a4a4a;
+  font-weight: bold;
+  border-radius: 0;
+  border-bottom: 2px solid #4a4a4a;
+  background-color: transparent;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-left: 0.5rem;
+}
 </style>
